@@ -13,11 +13,11 @@ There are three steps to get the most out of Decay.
 Follow the steps in the following video: 
 1. Download cycle data from https://www.batteryarchive.org/list.html?t=0001 
 2. Use decay_ml.py to find the RMSE and get a graphic representation of the decision tree in dot format
-   a. Use preferred VIM: py decay_ml.py battery-cell-file-name.csv
+a. Use preferred VIM: py decay_ml.py battery-cell-file-name.csv
 3. Use decay_ml_trainer.py to store the machine learning model in a joblib file. 
-   a. Use preferred VIM: py decay_ml_trainer.py battery-cell-file-name.csv
+a. Use preferred VIM: py decay_ml_trainer.py battery-cell-file-name.csv
 4.  Use decay_ml_prediction.py to enter in cycle index, test time, and minimum voltage to find the predicted discharge energy. 
-   a. Use preferred VIM: py decay_ml_prediction.py cycle-index test-time min-voltage
+a. Use preferred VIM: py decay_ml_prediction.py cycle-index test-time min-voltage
 
 # Requirements
 Libraries needed: sklearn, joblib, and pandas 

@@ -11,9 +11,9 @@ Follow the steps in the following video: https://youtu.be/L0L76S3UVRM
 4.  Use decay_ml_prediction.py to enter in cycle index, test time, and minimum voltage to find the predicted discharge energy. Use preferred VIM: py decay_ml_prediction.py cycle-index test-time min-voltage
 
 # Requirements
-Libraries needed: sklearn, joblib, and pandas 
+Libraries needed: scikit-learn, joblib, and pandas 
 
-sklearn: https://scikit-learn.org/stable/install.html
+scikit-learn: https://scikit-learn.org/stable/install.html
 
 joblib: https://pypi.org/project/joblib/
 

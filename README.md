@@ -1,5 +1,5 @@
 # Decay
-Decay is decision tree regression machine learning algorithm that can be used to find the degrading discharge energy (Wh) of a battery cell.  
+Decay is a decision tree regression machine learning algorithm that can be used to find the degrading discharge energy (Wh) of a battery cell.  
 
 Use https://www.batteryarchive.org/list.html?t=0001 and find a battery cell CSV file you would like to analyze. Choose the cycle data download after choosing a cell. 
 

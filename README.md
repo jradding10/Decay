@@ -4,7 +4,10 @@ Decay is a decision tree regression machine learning algorithm that can be used 
 Use https://www.batteryarchive.org/list.html?t=0001 and find a battery cell CSV file you would like to analyze. Choose the cycle data download after choosing a cell. Decay works with any battery data chosen from BatteryArchive.org. 
 
 # Set up
-Follow the steps in the following video: https://youtu.be/L0L76S3UVRM
+Follow the steps in the following video: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VJwiJiQmS4U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 1. Download cycle data from https://www.batteryarchive.org/list.html?t=0001 
 2. Use decay_ml.py to find the RMSE and get a graphic representation of the decision tree in dot format. 
 Use preferred VIM: `py decay_ml.py battery-cell-file-name.csv`

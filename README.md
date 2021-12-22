@@ -6,8 +6,7 @@ Use https://www.batteryarchive.org/list.html?t=0001 and find a battery cell CSV 
 # Set up
 Follow the steps in the following video: 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VJwiJiQmS4U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+[![IMAGE ALT TEXT](https://user-images.githubusercontent.com/59897673/147153227-c5cd7089-9142-41bd-ab4a-d1b41fe4dd4a.png)](https://www.youtube.com/embed/VJwiJiQmS4U)
 1. Download cycle data from https://www.batteryarchive.org/list.html?t=0001 
 2. Use decay_ml.py to find the RMSE and get a graphic representation of the decision tree in dot format. 
 Use preferred VIM: `py decay_ml.py battery-cell-file-name.csv`
